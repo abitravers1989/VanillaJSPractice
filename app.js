@@ -27,7 +27,7 @@ function getResults(searchTerm){
 
 function showResults(results){
     resultsSection.innerHTML = '';
-    const html = '';
+    let html = '';
     //console.log(results)
     results.forEach(movie =>{
        // console.log(movie)
